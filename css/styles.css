@@ -165,7 +165,7 @@ body{
     padding: 15px;
   }
 }
-@media screen and (min width: 0px) and (max-width: 899) { /*phones*/
+@media screen and (min-width: 0px) and (max-width: 899) { /*phones*/
   body{
     background-color: #F9FAF4;
         overflow: scroll;

@@ -70,6 +70,7 @@ ol{
   }
   .work-item{
     flex-grow:1;
+    width: 30%;
     margin:10px;
     background-color: #F9A663;
   }

@@ -1,6 +1,6 @@
 function buttonClicked(){
-  "There is no game."
+  let text = "There is no game.";
 }
 function buttonClickedManners(){
-  "Why, thank you for using your manners!"
+  let text = "Why, thank you for using your manners!";
 }

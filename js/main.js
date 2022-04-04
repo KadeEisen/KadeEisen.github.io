@@ -1,6 +1,12 @@
-function buttonClicked(){
-  let text = "There is no game.";
+document.getElementById("button").addEventListener("click", buttonClicked)
+document.getElementById("buttonManners").addEventListener("click", buttonClickedManners)
+
+function buttonClicked()
+{
+
 }
-function buttonClickedManners(){
-  let text = "Why, thank you for using your manners!";
+
+function buttonClickedManners()
+{
+  
 }

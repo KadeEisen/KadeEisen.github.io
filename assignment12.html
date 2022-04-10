@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 12 Demo -- Quote Machine</title>
+    <script defer src="assignment12.js" charset="utf-8"></script> <!--use defer for running js after html is loaded and async for running js once js is loaded, does not rely on html timing and might load before/after page-->
+    <link rel="stylesheet" href="assignment12.css">
+  </head>
+  <body>
+    <div class="app">
+  <header>Help, I'm Bored!</header>
+  <section class="quotes">
+    <div class="quote-text" id="js-quote-text"></div>
+  </section>
+  <section class="controls">
+    <button type="button" id="js-new-quote" class="new-quote button">
+      Give me something to do.
+    </button>
+    <section class="counter">
+      Times button has been clicked:
+      <div class="counter" id="counter"></div>
+    </section>
+  </section>
+</div>
+  </body>
+</html>
+
+<!-- https://random-quote-generator.herokuapp.com/api/quotes/random -->

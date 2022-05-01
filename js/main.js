@@ -1,8 +1,3 @@
-// document.getElementById("button").addEventListener("click", buttonClicked);
-// document.getElementById("buttonManners").addEventListener("click", buttonClickedManners);
-// document.getElementById("game").addEventListener("mouseover", dare);
-
-//write array of websites
 const websites = [
   'http://corndog.io/'
   'https://tacospin.com/'
@@ -11,18 +6,37 @@ const websites = [
   'https://anotheruseless.website/ducksarethebest-com/'
   'https://thequietplaceproject.xyz/thequietplace'
   'https://procatinator.com/'
+  'https://freerice.com/categories/english-vocabulary'
+  'https://www.geoguessr.com/'
+  'https://hackertyper.com/'
+  'https://www.mapcrunch.com/'
+  'https://findtheinvisiblecow.com/'
+  'https://screamintothevoid.com/'
+  'https://archive.org/web/'
+  'https://stellarium-web.org/'
+  'https://play2048.co/'
+  'https://en.wikipedia.org/wiki/List_of_individual_dogs'
+  'https://zoomquilt.org/'
+  'https://apod.nasa.gov/apod/astropix.html'
+  'https://musclewiki.com/'
+  'https://www.internetlivestats.com/'
+  'https://thisissand.com/'
+  'http://radio.garden/search'
+  'https://www.incredibox.com/'
+  'https://trypap.com/'
+  'https://explore.org/livecams/cats/kitten-rescue-cam'
+  'https://29a.ch/sandbox/2011/neonflames/#'
+  'https://www.whatshouldireadnext.com/'
+  'https://myfridgefood.com/'
+  'https://www.onread.com/'
+  'http://weavesilk.com/'
+  'https://eyebleach.me/'
+  'https://en.wikipedia.org/wiki/List_of_conspiracy_theories'
+  'http://orteil.dashnet.org/cookieclicker/'
+  'https://xkcd.com/'
+  'https://www.rainymood.com/'
 ]
-function buttonClicked()
-{
-  alert("There is no game.");
-}
-
-//write function to insert new url using setAttribute() DOM element
+document.getElementById("getWebsite").addEventListener("click", changeURL());
 function changeURL(){
-  // load websites[math.Random()] using setAttribute()
-  // document.getElementById("askldjfahskdf").setAttribute("href", websites[math.random()])
+  document.getElementById("getWebsite").setAttribute("href", websites[Math.random() * 37]);
 }
-
-
-
-document.getElementById("getWebsite").addEventListener("click", buttonClicked);

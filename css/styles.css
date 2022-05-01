@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-
-/* html cannot be in css
-Use media queries to "override" each other, don't need to say the same thing twice
-Use rem for font size depending on scale*/
-
 h1{
     font-family: 'Reenie Beanie', cursive;
     color: black;
@@ -28,8 +23,11 @@ h5{
     color: black;
    }
 h6{
-    font-family: 'Reenie Beanie', cursive;
-    color: black;
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  color: black;
+  font-size: 3em;
+  text-align: center;
    }
 
 p{
@@ -166,8 +164,8 @@ body{
   }
   .clickhere{
     position: absolute;
-    left: 390px;
-    top: 150px;
+    padding-left: 500px;
+    padding-top: 150px;
   }
 }
 @media screen and (min-width: 0px) and (max-width: 899) { /*phones*/
